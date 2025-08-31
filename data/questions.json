@@ -1,0 +1,327 @@
+[
+  {
+    "tema": "Geografía",
+    "preguntas": [
+      {
+        "id": 1,
+        "pregunta": "¿Cuál es la capital de Australia?",
+        "opciones": ["Sídney", "Melbourne", "Canberra", "Perth"],
+        "respuesta": "Canberra"
+      },
+      {
+        "id": 2,
+        "pregunta": "¿Qué país es conocido como la Tierra del Sol Naciente?",
+        "opciones": ["China", "Japón", "Corea del Sur", "Vietnam"],
+        "respuesta": "Japón"
+      },
+      {
+        "id": 3,
+        "pregunta": "¿Cuál es el río más largo del mundo?",
+        "opciones": ["Nilo", "Amazonas", "Misisipi", "Yangtsé"],
+        "respuesta": "Amazonas"
+      },
+      {
+        "id": 4,
+        "pregunta": "¿Qué desierto es el más grande del mundo?",
+        "opciones": ["Sahara", "Gobi", "Atacama", "Antártico"],
+        "respuesta": "Antártico"
+      },
+      {
+        "id": 5,
+        "pregunta": "¿Cuál es la montaña más alta del mundo?",
+        "opciones": ["Monte Everest", "K2", "Kangchenjunga", "Lhotse"],
+        "respuesta": "Monte Everest"
+      },
+      {
+        "id": 6,
+        "pregunta": "¿En qué continente se encuentra el desierto de Atacama?",
+        "opciones": ["África", "Asia", "América del Sur", "Australia"],
+        "respuesta": "América del Sur"
+      },
+      {
+        "id": 7,
+        "pregunta": "¿Qué océano es el más grande del mundo?",
+        "opciones": ["Atlántico", "Índico", "Pacífico", "Ártico"],
+        "respuesta": "Pacífico"
+      },
+      {
+        "id": 8,
+        "pregunta": "¿Cuál es la capital de Egipto?",
+        "opciones": ["Alejandría", "El Cairo", "Luxor", "Asuán"],
+        "respuesta": "El Cairo"
+      },
+      {
+        "id": 9,
+        "pregunta": "¿Qué país tiene más husos horarios?",
+        "opciones": ["Rusia", "Canadá", "Estados Unidos", "Francia"],
+        "respuesta": "Francia"
+      },
+      {
+        "id": 10,
+        "pregunta": "¿Cuál es la moneda oficial de Japón?",
+        "opciones": ["Yuan", "Dólar", "Yen", "Euro"],
+        "respuesta": "Yen"
+      }
+    ]
+  },
+  {
+    "tema": "Ciencia",
+    "preguntas": [
+      {
+        "id": 1,
+        "pregunta": "¿Cuál es el elemento químico más abundante en la corteza terrestre?",
+        "opciones": ["Hierro", "Aluminio", "Silicio", "Oxígeno"],
+        "respuesta": "Oxígeno"
+      },
+      {
+        "id": 2,
+        "pregunta": "¿Qué planeta del sistema solar es el más grande?",
+        "opciones": ["Marte", "Júpiter", "Saturno", "Tierra"],
+        "respuesta": "Júpiter"
+      },
+      {
+        "id": 3,
+        "pregunta": "¿Qué gas es esencial para la respiración de los seres humanos?",
+        "opciones": ["Dióxido de carbono", "Nitrógeno", "Oxígeno", "Hidrógeno"],
+        "respuesta": "Oxígeno"
+      },
+      {
+        "id": 4,
+        "pregunta": "¿Cuál es la fórmula química del agua?",
+        "opciones": ["CO2", "H2O", "NaCl", "O2"],
+        "respuesta": "H2O"
+      },
+      {
+        "id": 5,
+        "pregunta": "¿Qué ley de la física explica por qué los objetos caen al suelo?",
+        "opciones": ["Ley de la termodinámica", "Ley de la relatividad", "Ley de la gravedad", "Ley de la conservación de la energía"],
+        "respuesta": "Ley de la gravedad"
+      },
+      {
+        "id": 6,
+        "pregunta": "¿Qué animal es el mamífero más rápido?",
+        "opciones": ["León", "Gacela", "Guepardo", "Caballo"],
+        "respuesta": "Guepardo"
+      },
+      {
+        "id": 7,
+        "pregunta": "¿Qué es un agujero negro?",
+        "opciones": ["Un tipo de estrella", "Una región del espacio con una gravedad tan fuerte que nada puede escapar", "Una galaxia en formación", "Un planeta sin atmósfera"],
+        "respuesta": "Una región del espacio con una gravedad tan fuerte que nada puede escapar"
+      },
+      {
+        "id": 8,
+        "pregunta": "¿Cuál es la función principal de los glóbulos rojos en la sangre?",
+        "opciones": ["Combatir infecciones", "Coagular la sangre", "Transportar oxígeno", "Almacenar nutrientes"],
+        "respuesta": "Transportar oxígeno"
+      },
+      {
+        "id": 9,
+        "pregunta": "¿Qué tipo de energía se produce en una central nuclear?",
+        "opciones": ["Energía solar", "Energía eólica", "Energía química", "Energía nuclear"],
+        "respuesta": "Energía nuclear"
+      },
+      {
+        "id": 10,
+        "pregunta": "¿Qué órgano del cuerpo humano produce la insulina?",
+        "opciones": ["Hígado", "Páncreas", "Riñón", "Estómago"],
+        "respuesta": "Páncreas"
+      }
+    ]
+  },
+  {
+    "tema": "Historia",
+    "preguntas": [
+      {
+        "id": 1,
+        "pregunta": "¿Quién fue el primer presidente de los Estados Unidos?",
+        "opciones": ["Thomas Jefferson", "Abraham Lincoln", "George Washington", "John Adams"],
+        "respuesta": "George Washington"
+      },
+      {
+        "id": 2,
+        "pregunta": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+        "opciones": ["1774", "1776", "1789", "1801"],
+        "respuesta": "1776"
+      },
+      {
+        "id": 3,
+        "pregunta": "¿Quién pintó la Mona Lisa?",
+        "opciones": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Miguel Ángel"],
+        "respuesta": "Leonardo da Vinci"
+      },
+      {
+        "id": 4,
+        "pregunta": "¿En qué guerra se utilizó la bomba atómica por primera vez?",
+        "opciones": ["Primera Guerra Mundial", "Segunda Guerra Mundial", "Guerra de Corea", "Guerra de Vietnam"],
+        "respuesta": "Segunda Guerra Mundial"
+      },
+      {
+        "id": 5,
+        "pregunta": "¿Qué civilización construyó las pirámides de Giza?",
+        "opciones": ["Romanos", "Griegos", "Egipcios", "Mayas"],
+        "respuesta": "Egipcios"
+      },
+      {
+        "id": 6,
+        "pregunta": "¿Quién fue el líder del movimiento de los derechos civiles en Estados Unidos?",
+        "opciones": ["Malcolm X", "Martin Luther King Jr.", "Rosa Parks", "Nelson Mandela"],
+        "respuesta": "Martin Luther King Jr."
+      },
+      {
+        "id": 7,
+        "pregunta": "¿Qué evento marcó el inicio de la Primera Guerra Mundial?",
+        "opciones": ["El hundimiento del Titanic", "El asesinato del archiduque Francisco Fernando", "La invasión de Polonia", "El ataque a Pearl Harbor"],
+        "respuesta": "El asesinato del archiduque Francisco Fernando"
+      },
+      {
+        "id": 8,
+        "pregunta": "¿Qué emperador romano legalizó el cristianismo?",
+        "opciones": ["Julio César", "Nerón", "Constantino el Grande", "Augusto"],
+        "respuesta": "Constantino el Grande"
+      },
+      {
+        "id": 9,
+        "pregunta": "¿En qué año cayó el Muro de Berlín?",
+        "opciones": ["1985", "1987", "1989", "1991"],
+        "respuesta": "1989"
+      },
+      {
+        "id": 10,
+        "pregunta": "¿Quién fue el primer ser humano en el espacio?",
+        "opciones": ["Neil Armstrong", "Yuri Gagarin", "Valentina Tereshkova", "Alan Shepard"],
+        "respuesta": "Yuri Gagarin"
+      }
+    ]
+  },
+  {
+    "tema": "Deportes",
+    "preguntas": [
+      {
+        "id": 1,
+        "pregunta": "¿Cuántos jugadores tiene un equipo de fútbol en el campo?",
+        "opciones": ["9", "10", "11", "12"],
+        "respuesta": "11"
+      },
+      {
+        "id": 2,
+        "pregunta": "¿Cuál es el país de origen del boxeo?",
+        "opciones": ["Estados Unidos", "México", "Reino Unido", "Grecia"],
+        "respuesta": "Reino Unido"
+      },
+      {
+        "id": 3,
+        "pregunta": "¿Qué deporte se juega en Wimbledon?",
+        "opciones": ["Golf", "Tenis", "Fútbol", "Baloncesto"],
+        "respuesta": "Tenis"
+      },
+      {
+        "id": 4,
+        "pregunta": "¿Quién es conocido como 'El Rey del Fútbol'?",
+        "opciones": ["Lionel Messi", "Diego Maradona", "Cristiano Ronaldo", "Pelé"],
+        "respuesta": "Pelé"
+      },
+      {
+        "id": 5,
+        "pregunta": "¿Cuántos anillos olímpicos hay en el símbolo olímpico?",
+        "opciones": ["3", "4", "5", "6"],
+        "respuesta": "5"
+      },
+      {
+        "id": 6,
+        "pregunta": "¿Qué deporte se practica con un bate y una pelota en un campo con bases?",
+        "opciones": ["Béisbol", "Softbol", "Críquet", "Hockey"],
+        "respuesta": "Béisbol"
+      },
+      {
+        "id": 7,
+        "pregunta": "¿En qué deporte se utiliza la expresión 'ace'?",
+        "opciones": ["Fútbol", "Baloncesto", "Tenis", "Voleibol"],
+        "respuesta": "Tenis"
+      },
+      {
+        "id": 8,
+        "pregunta": "¿Qué país ha ganado más Copas del Mundo de la FIFA?",
+        "opciones": ["Alemania", "Italia", "Argentina", "Brasil"],
+        "respuesta": "Brasil"
+      },
+      {
+        "id": 9,
+        "pregunta": "¿Cuál es el único Grand Slam que se juega en hierba?",
+        "opciones": ["Abierto de Australia", "Roland Garros", "Wimbledon", "Abierto de Estados Unidos"],
+        "respuesta": "Wimbledon"
+      },
+      {
+        "id": 10,
+        "pregunta": "¿Quién es el máximo goleador en la historia del fútbol?",
+        "opciones": ["Lionel Messi", "Cristiano Ronaldo", "Pelé", "Josef Bican"],
+        "respuesta": "Cristiano Ronaldo"
+      }
+    ]
+  },
+  {
+    "tema": "Cine y Literatura",
+    "preguntas": [
+      {
+        "id": 1,
+        "pregunta": "¿Qué director de cine es conocido por películas como 'Pulp Fiction' y 'Kill Bill'?",
+        "opciones": ["Steven Spielberg", "Quentin Tarantino", "Martin Scorsese", "Alfred Hitchcock"],
+        "respuesta": "Quentin Tarantino"
+      },
+      {
+        "id": 2,
+        "pregunta": "¿Quién escribió la novela 'Don Quijote de la Mancha'?",
+        "opciones": ["Gabriel García Márquez", "Jorge Luis Borges", "Miguel de Cervantes", "William Shakespeare"],
+        "respuesta": "Miguel de Cervantes"
+      },
+      {
+        "id": 3,
+        "pregunta": "¿Cuál es la primera película animada de Disney con sonido?",
+        "opciones": ["Blancanieves y los siete enanitos", "Pinocho", "Fantasía", "Dumbo"],
+        "respuesta": "Blancanieves y los siete enanitos"
+      },
+      {
+        "id": 4,
+        "pregunta": "¿Qué autor escribió la saga de 'Harry Potter'?",
+        "opciones": ["J.R.R. Tolkien", "George R.R. Martin", "J.K. Rowling", "Stephen King"],
+        "respuesta": "J.K. Rowling"
+      },
+      {
+        "id": 5,
+        "pregunta": "¿En qué película el protagonista dice la famosa frase 'Houston, tenemos un problema'?",
+        "opciones": ["Gravity", "Apollo 13", "The Martian", "Interstellar"],
+        "respuesta": "Apollo 13"
+      },
+      {
+        "id": 6,
+        "pregunta": "¿Qué obra de teatro de Shakespeare es conocida por la frase 'Ser o no ser, esa es la cuestión'?",
+        "opciones": ["Romeo y Julieta", "Otelo", "Hamlet", "Macbeth"],
+        "respuesta": "Hamlet"
+      },
+      {
+        "id": 7,
+        "pregunta": "¿Cuál es el título de la primera película de la trilogía de 'El Señor de los Anillos'?",
+        "opciones": ["La comunidad del anillo", "Las dos torres", "El retorno del rey", "El hobbit"],
+        "respuesta": "La comunidad del anillo"
+      },
+      {
+        "id": 8,
+        "pregunta": "¿Quién es el autor de la novela 'Cien años de soledad'?",
+        "opciones": ["Julio Cortázar", "Pablo Neruda", "Gabriel García Márquez", "Mario Vargas Llosa"],
+        "respuesta": "Gabriel García Márquez"
+      },
+      {
+        "id": 9,
+        "pregunta": "¿Qué famoso actor de cine protagoniza la película 'El Padrino'?",
+        "opciones": ["Al Pacino", "Robert De Niro", "Marlon Brando", "Jack Nicholson"],
+        "respuesta": "Marlon Brando"
+      },
+      {
+        "id": 10,
+        "pregunta": "¿Cuál es el nombre del protagonista de la novela 'El Principito'?",
+        "opciones": ["El piloto", "El principito", "El rey", "El zorro"],
+        "respuesta": "El principito"
+      }
+    ]
+  }
+]

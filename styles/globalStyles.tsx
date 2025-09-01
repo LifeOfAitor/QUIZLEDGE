@@ -154,4 +154,20 @@ export const globalStyles = StyleSheet.create({
     textShadowOffset: { width: 1, height: 1 },
     textShadowRadius: 2,
   },
+  // Para los rankings
+  item: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    backgroundColor: "rgba(0,0,0,0.6)", 
+    padding: 15,
+    borderRadius: 10,
+    marginBottom: 10,
+    width: '100%',
+  },
+  tema: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: '600',
+  },
+
 });

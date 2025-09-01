@@ -1,9 +1,11 @@
 import { globalStyles } from "@/styles/globalStyles";
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useRouter } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import React, { useEffect, useState } from "react";
 import { ImageBackground, Text, TouchableOpacity, View } from "react-native";
 import questions from "../data/questions.json";
+
 
 // Tipos
 type Pregunta = {
@@ -27,6 +29,7 @@ export default function QuizScreen() {
     const [mostrarResultado, setMostrarResultado] = useState<boolean>(false);
     const [seleccionada, setSeleccionada] = useState<string | null>(null);
     const [correcta, setCorrecta] = useState<boolean | null>(null);
+    const [maxPuntos, setMaxPuntos] = useState<number>(0);
 
     const handleSeleccionTema = (tema: Tema) => {
         setTemaActual(tema);
@@ -60,11 +63,24 @@ export default function QuizScreen() {
                     setCorrecta(null);
                 } else {
                     setMostrarResultado(true);
+                    saveScore(temaActual.tema, puntuacion); //guardar la puntuación
                 }
             }, 250);
             return () => clearTimeout(timer);
         }
+
     }, [seleccionada]);
+
+    useEffect(() => {
+        if (mostrarResultado && temaActual) {
+            const loadMax = async () => {
+                const stored = await AsyncStorage.getItem(temaActual.tema);
+                setMaxPuntos(stored ? parseInt(stored) : 0);
+            };
+            loadMax();
+        }
+    }, [mostrarResultado, temaActual]);
+
 
     const handleReiniciarJuego = () => {
         setTemaActual(null);
@@ -74,6 +90,23 @@ export default function QuizScreen() {
         setSeleccionada(null);
         setCorrecta(null);
     };
+
+    const saveScore = async (tema: string, puntos: number) => {
+        try {
+            // Leer la puntuación máxima guardada
+            const stored = await AsyncStorage.getItem(tema);
+            const maxPuntos = stored ? parseInt(stored) : 0;
+
+            // Solo actualizar si la nueva puntuación es mayor
+            if (puntos > maxPuntos) {
+                await AsyncStorage.setItem(`score_${tema}`, puntos.toString());
+
+            }
+        } catch (error) {
+            console.log('Error guardando la puntuación', error);
+        }
+    };
+
 
     // Pantalla selección de tema
     if (!temaActual) {
@@ -113,6 +146,10 @@ export default function QuizScreen() {
                 <Text style={globalStyles.resultadoTexto}>
                     Tu puntuación: {puntuacion} de {temaActual.preguntas.length}
                 </Text>
+
+                <Text style={globalStyles.resultadoTexto}>
+                    Máxima puntuación: {maxPuntos} pts
+                </Text>
                 <TouchableOpacity style={globalStyles.botonReiniciar} onPress={handleReiniciarJuego}>
                     <Text style={globalStyles.textoBotonReiniciar}>Volver a jugar</Text>
                 </TouchableOpacity>
@@ -133,7 +170,6 @@ export default function QuizScreen() {
             style={globalStyles.container}
             resizeMode="cover"
         >
-            <Text style={globalStyles.tituloTema}>{temaActual.tema}</Text>
 
             <View style={globalStyles.fondoPregunta}>
                 <View style={globalStyles.seccionPregunta}>
